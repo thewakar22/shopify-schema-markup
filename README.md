@@ -6,6 +6,9 @@ This repo is an example for how to implement schema code manual to your Shopify 
 ## Overview
 This repository provides a step-by-step guide for implementing manual schema markup on your website. Schema markup helps search engines understand the content and context of your web pages, leading to better visibility in search results.
 
+## Why I created this repo?
+This repository provides a step-by-step guide for implementing manual schema markup on your website. Schema markup helps search engines understand the content and context of your web pages, leading to better visibility in search results.
+
 ## Getting Started
 Follow these steps to get started with schema markup:
 
@@ -19,11 +22,31 @@ Follow these steps to get started with schema markup:
    - Add schema markup using JSON-LD or Microdata. For example:
      ```json
      {
-       "@context": "http://schema.org",
-       "@type": "Article",
-       "headline": "How to Implement Schema Markup",
-       "description": "A comprehensive guide to manual schema markup implementation.",
-       "url": "https://github.com/your-username/schema-markup-guide"
+             "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "{{product.title}}",
+      "image": "{{ shop. url }}/cdn/shop/{{ product.featured_image }}",
+      "description": "{{page_description}}",
+      "brand": {
+        "@type": "Brand",
+        "name": "{{product.vendor}}"
+      },
+      "sku": {{ product.selected_or_first_available_variant.sku | json }},
+      "gtin13": {{ product.variants.first.barcode | json }},
+      "offers": {
+        "@type": "Offer",
+        "url": "{{ canonical_url }}",
+        "priceValidUntil": "{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' | replace:'+','%20' }}",
+        "priceCurrency": "{{shop.currency}}",
+        "price": "{{product.price | money_without_currency}}",
+        "availability": "https://schema.org/{% if product.selected_or_first_available_variant %}InStock{% else %}OutOfStock{% endif %}",
+        "itemCondition": "https://schema.org/NewCondition"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "{{product.metafields.reviews.rating.value}}",
+        "ratingCount": "{{product.metafields.reviews.rating_count}}"
+      }
      }
      ```
 
@@ -39,5 +62,6 @@ Follow these steps to get started with schema markup:
 This is an work in progress repo, so I will keep updating it with more information after finishing more tests.
 
 ## Resources
-- Schema.org [https://github.com/your-username/schema-markup-guid](https://validator.schema.org/>
-- Google's Structured Data Documentation
+- Schema.org Validator: <https://validator.schema.org/>
+- Rich Snippets Testing: <https://search.google.com/test/rich-results>
+- Google's Structured Data Documentation: <https://developers.google.com/search/docs/appearance/structured-data/search-gallery>
