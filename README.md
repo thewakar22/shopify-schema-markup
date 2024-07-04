@@ -39,5 +39,5 @@ Follow these steps to get started with schema markup:
 This is an work in progress repo, so I will keep updating it with more information after finishing more tests.
 
 ## Resources
-- Schema.org
+- Schema.org <[https://github.com/your-username/schema-markup-guid](https://validator.schema.org/)>
 - Google's Structured Data Documentation
