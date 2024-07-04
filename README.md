@@ -27,7 +27,7 @@ Follow these steps to get started with schema markup:
 2. **Adding Schema Markup:**
    - Go to shopify admin and EDit Code.
    - Locate "main-product.liquid" file to add the schema markup code.
-   - Add schema markup using JSON-LD or Microdata. For example:
+   - Copy the code provided below and implement schema markup using JSON-LD. For example:
      ```json
      {
      "@context": "https://schema.org/",
@@ -58,16 +58,18 @@ Follow these steps to get started with schema markup:
      }
      ```
 
-3. **Testing Your Markup:**
-   - Use Google's Structured Data Testing Tool to validate your schema markup.
-   - Fix any errors or warnings.
+3. **Publishing Your Changes:**
+   - Save the edit and preview the page.
 
-4. **Publishing Your Changes:**
-   - Commit your changes to this repository.
-   - Push them to GitHub.
+4. **Testing Your Markup:**
+   - Use Google's Structured Data Testing Tool to validate your schema markup (check resources below).
 
 ## Disclaimer
 This is an work in progress repo, so I will keep updating it with more information after finishing more tests.
+   - Known issues with code
+     - If your product listing doesn’t have any reviews, you might encounter an error when testing with "Google Rich Snippets testing Tool".
+     -  You’ll see some warnings because code is missing some values realted to product listing.
+     -  Every website is unique, like snowflakes! So, this solution isn’t one-size-fits-all. But hey, before you hit that “save” button, test everything out. Make sure your website doesn’t break. And remember, I’m not a coding wizard, so if things go haywire, it’s not my fault! 😅
 
 ## Resources
 - Schema.org Validator: <https://validator.schema.org/>
