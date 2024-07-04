@@ -1,4 +1,4 @@
-# shopify-schema-markup
+# Shopify: Manual Schema Markup Implementation
 This repo is an example for how to implement schema code manual to your Shopify website without any 3rd party add-ons.
 
 # Schema Markup Implementation Guide
