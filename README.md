@@ -20,12 +20,12 @@ I’m an SEO expert, and one day, I decided to explore Shopify. My mission? To m
 Follow these steps to get started with schema markup:
 
 1. **Understanding Schema Markup:**
-   - Learn about schema.org and the different types of schema available (e.g., Article, Product, Organization).
-   - Identify which schema type is relevant for your content.
+   - This repo is specificaly dedicated for Product schema markup implementation with rating and review.
+   - using Judge Reveiw plugin for creating sample reviews.
 
 2. **Adding Schema Markup:**
-   - Open your HTML file (or any other markup format you're using).
-   - Locate the relevant content (e.g., an article, product details, or event information).
+   - Go to shopify admin and EDit Code.
+   - Locate "main-product.liquid" file to add the schema markup code.
    - Add schema markup using JSON-LD or Microdata. For example:
      ```json
      {
