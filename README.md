@@ -1,6 +1,6 @@
 # Shopify: Manual Schema Markup Implementation
 This repo is an example for how to implement schema code manual to your Shopify website without any 3rd party add-ons.
-![Rich Snippets Results]((https://github.com/thewakar22/shopify-schema-markup/blob/main/schema%20makup%20example.jpg))
+[Rich Snippets Results]((https://github.com/thewakar22/shopify-schema-markup/blob/main/schema%20makup%20example.jpg))
 
 # Schema Markup Implementation Guide
 
