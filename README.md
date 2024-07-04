@@ -22,7 +22,7 @@ Follow these steps to get started with schema markup:
    - Add schema markup using JSON-LD or Microdata. For example:
      ```json
      {
-             "@context": "https://schema.org/",
+     "@context": "https://schema.org/",
       "@type": "Product",
       "name": "{{product.title}}",
       "image": "{{ shop. url }}/cdn/shop/{{ product.featured_image }}",
