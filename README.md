@@ -7,7 +7,13 @@ This repo is an example for how to implement schema code manual to your Shopify 
 This repository provides a step-by-step guide for implementing manual schema markup on your website. Schema markup helps search engines understand the content and context of your web pages, leading to better visibility in search results.
 
 ## Why I created this repo?
-This repository provides a step-by-step guide for implementing manual schema markup on your website. Schema markup helps search engines understand the content and context of your web pages, leading to better visibility in search results.
+I’m an SEO expert, and one day, I decided to explore Shopify. My mission? To manually adding schema markup. Now, I’m not a coding pro or a Shopify expert, but I wanted to learn. So, let me explain more in detail.
+
+🔍 The Problem: I needed to find information about implementing schema markup manually on Shopify. Most tutorials were outdated and  complicated—they assumed everyone was a coding genius or talked about old stuff like “product.liquid.”
+
+🛠️ My Solution: Started experimenting with something called “liquid variables.” It sounds fancy, but it’s just a way to get info from Shopify. I figured out which variables to utilise for product details.
+
+📂 Navigating Files: The usual “product.liquid” file wasn’t around anymore. But after editing a bunch of liquid and json files, I stumbled upon “main-product.liquid” This was the secret sauce for adding schema markup manually.
 
 ## Getting Started
 Follow these steps to get started with schema markup:
