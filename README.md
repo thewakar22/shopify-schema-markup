@@ -68,7 +68,7 @@ Follow these steps to get started with schema markup:
 This is an work in progress repo, so I will keep updating it with more information after finishing more tests.
    - Known issues with code
      - If your product listing doesn’t have any reviews, you might encounter an error when testing with "Google Rich Snippets testing Tool".
-     -  You’ll see some warnings because code is missing some values realted to product listing.
+     -  You’ll see some warnings because code is missing some values related to product listing.
      -  Every website is unique, like snowflakes! So, this solution isn’t one-size-fits-all. But hey, before you hit that “save” button, test everything out. Make sure your website doesn’t break. And remember, I’m not a coding wizard, so if things go haywire, it’s not my fault! 😅
 
 ## Resources
