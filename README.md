@@ -28,6 +28,7 @@ Follow these steps to get started with schema markup:
    - Go to shopify admin and EDit Code.
    - Locate "main-product.liquid" file to add the schema markup code.
    - Copy the code provided below and implement schema markup using JSON-LD. For example:
+
      ```json
      {
      "@context": "https://schema.org/",
